@@ -17,13 +17,7 @@ var x=  emailjs.send("service_giq1obp","template_hmizxbu",state)
     }, function(error) {
        console.log('FAILED...', error);
     });
-      
-    if(x.isFulfilled())
-    {
-        if(response.text=="OK")
-      <?php header("Location:contact.php?submit=1");?>
-            else
-                <?php header("Location:contact.php?fail=1");?>
-    } 
+      console.log(x);
+
       
 </script>
