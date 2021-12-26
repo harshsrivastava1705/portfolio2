@@ -96,7 +96,7 @@ emailjs.init("user_PrLzDYPz3tYaFhKo5kmsZ");
 <div id="main" >
 
 
-<form style="width:60%; margin-left:20%;" action="email.php" method="post">
+<form style="width:60%; margin-left:20%;" action="email.php" method="post" id="contact">
 <div class="form-group">
     <label for="name">Name</label>
     <input type="text" class="form-control" id="name" name="name"  placeholder="Enter your name">
