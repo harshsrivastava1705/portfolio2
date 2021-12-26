@@ -90,7 +90,7 @@
 
 
 
-<div id="certifications"  class="container-home">
+<div id="certifications"  class="container-home" data-aos=\"fade-up\">>
 <h2>My cerifications</h2>
 <br>
 <div class="container">
@@ -135,7 +135,7 @@
 
 <!--LANGUAGE STACK STARTS HERE-->
 
-<div id="languages"  class="container-home">
+<div id="languages"  class="container-home" data-aos=\"fade-up\">>
 <h2>My Language Stack</h2>
 <br>
 <div class="container" style="align-items:center;">
@@ -172,7 +172,7 @@
 
 <!--PROJECTS START HERE-->
 
-<div id="projects" class="container-home">
+<div id="projects" class="container-home" data-aos=\"fade-up\">>
 <h2>My Projects</h2>
 <br>
 <div class="container">
