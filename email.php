@@ -14,8 +14,10 @@ var state = {
 var x=  emailjs.send("service_giq1obp","template_hmizxbu",state)
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+        window.location.assign("contact.php?submit=1");
     }, function(error) {
        console.log('FAILED...', error);
+        window.location.assign("contact.php?fail=1");
     });
       console.log(x);
 
