@@ -17,8 +17,7 @@ var state = {
     }, function(error) {
        console.log('FAILED...', error);
     });
-      
-    });
+     
       while(!response.text=="OK")
       console.log("waiting"); 
       
