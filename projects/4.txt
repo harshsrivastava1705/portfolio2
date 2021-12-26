@@ -1,0 +1,1 @@
+A web based javascript tic-tac-toe game. Developed as a fun project, this helped me hone my skills and better my understanding of various javascript and data-structures concepts.

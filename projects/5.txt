@@ -1,0 +1,1 @@
+A fun little side poetry blog project developed to explore the world of web based frameworks(Wix and its likes).

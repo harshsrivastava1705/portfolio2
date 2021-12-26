@@ -1,0 +1,1 @@
+A personal portfolio, not much different than this one, developed as a beginner to showcase the personal projects and certifications. The current portfolio has been made dynamic to reduce the complexity while adding or deleting elements from the website.
