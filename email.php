@@ -11,7 +11,7 @@ var state = {
     email: "<?php echo $_POST["email"]?>",
     desc: "<?php echo $_POST["desc"]?>",
   };
-  emailjs.sendForm("service_giq1obp","template_hmizxbu",contact)
+  emailjs.send("service_giq1obp","template_hmizxbu",state)
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
