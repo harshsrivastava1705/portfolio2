@@ -22,15 +22,19 @@ var state = {
        
        
     });
-    while(flag==0){}
-     if(flag==1)
-     {
-         sleep(1);
-    <?php header("Location:contact.php?submit=1");?>
-     }
-         else if(flag==-1)
-         {       sleep(1);
-          <?php header("Location:contact.php?fail=1");?>
+    
+     .then((result) => {
+    if (result.text == 'OK' ) {
+      <?php header("Location:contact.php?submit=1");?>
+    } else {
+      <?php header("Location:contact.php?fail=1");?>
+      });
     }
-
+      }, (error) => {
+          console.log(error.text);
+          <?php header("Location:contact.php?fail=1");?>
+      }
+    );
+    
+  };
 </script>
