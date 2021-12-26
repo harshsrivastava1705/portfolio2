@@ -123,7 +123,7 @@ for($i=1;$i<=$filecount/3;$i++)
     fclose($myfile);
 
     echo"
-    <div class=\"container-home\">
+    <div class=\"container-home\" data-aos=\"fade-up\">
     <img src=\"projects/{$i}.png\" class=\"cert-img \" style=\"margin:1% 0 1% 0\"> <br>
     <p class=\"img-desc\">{$desc}</p>
     <a class=\"redirect\" href=\"{$link}\">Visit <i class=\"fas fa-external-link-square-alt\"></i></a>
