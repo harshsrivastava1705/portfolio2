@@ -11,14 +11,19 @@ var state = {
     email: "<?php echo $_POST["email"]?>",
     desc: "<?php echo $_POST["desc"]?>",
   };
-  emailjs.send("service_giq1obp","template_hmizxbu",state)
+var x=  emailjs.send("service_giq1obp","template_hmizxbu",state)
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
        console.log('FAILED...', error);
     });
-     
-      while(!response.text=="OK")
-      console.log("waiting"); 
+      
+    if(x.isFulfilled())
+    {
+        if(response.text=="OK")
+      <?php header("Location:contact.php?submit=1");?>
+            else
+                <?php header("Location:contact.php?fail=1");?>
+    } 
       
 </script>
