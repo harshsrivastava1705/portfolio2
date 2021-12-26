@@ -136,7 +136,7 @@
 
 <!--LANGUAGE STACK STARTS HERE-->
 
-<div id="languages"  class="container-home" data-aos="fade-up">>
+<div id="languages"  class="container-home" data-aos="fade-up">
 <h2>My Language Stack</h2>
 <br>
 <div class="container" style="align-items:center;">
@@ -173,7 +173,7 @@
 
 <!--PROJECTS START HERE-->
 
-<div id="projects" class="container-home" data-aos="fade-up">>
+<div id="projects" class="container-home" data-aos="fade-up">
 <h2>My Projects</h2>
 <br>
 <div class="container">
