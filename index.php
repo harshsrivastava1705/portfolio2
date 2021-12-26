@@ -64,7 +64,7 @@
       <li ><a href="#" class="navele active">Home</a></li>
       <li ><a href="certifications.php" class="navele">Certifications</a></li>
       <li ><a href="projects.php" class="navele">Projects</a></li>
-      <li ><a href="#" class="navele">Contact Me</a></li>
+      <li ><a href="contact.php" class="navele">Contact Me</a></li>
     </ul>
   </div>
 </nav>
