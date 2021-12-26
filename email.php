@@ -19,5 +19,6 @@ var state = {
       
     });
     
-    <?php  if(response.status=="OK")  header("Location:contact.php?submit=1");?>
+      if(response.status=="OK") 
+      <?php header("Location:contact.php?submit=1");?>
 </script>
