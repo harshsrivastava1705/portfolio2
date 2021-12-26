@@ -14,27 +14,15 @@ var state = {
   emailjs.send("service_giq1obp","template_hmizxbu",state)
   .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+      <?php header("Location:contact.php?submit=1");?>
        if(response.staus==200)
-      flag=1;
+      <?php header("Location:contact.php?submit=1");?>
     }, function(error) {
        console.log('FAILED...', error);
-      alert("Failed");
+      <?php header("Location:contact.php?fail=1");?>
        
        
     });
     
-     .then((result) => {
-    if (result.text == 'OK' ) {
-      <?php header("Location:contact.php?submit=1");?>
-    } else {
-      <?php header("Location:contact.php?fail=1");?>
-      });
-    }
-      }, (error) => {
-          console.log(error.text);
-          <?php header("Location:contact.php?fail=1");?>
-      }
-    );
     
-  };
 </script>
