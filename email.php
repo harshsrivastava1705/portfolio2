@@ -19,7 +19,7 @@ var state = {
     });
       
     });
-    
-      if(response.status=="OK") 
-      <?php header("Location:contact.php?submit=1");?>
+      while(!response.text=="OK")
+      console.log("waiting"); 
+      
 </script>
