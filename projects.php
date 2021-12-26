@@ -178,6 +178,8 @@ for($i=1;$i<=$filecount/3;$i++)
   <!-- Copyright -->
 </footer>
 </div>
-
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
