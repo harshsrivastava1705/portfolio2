@@ -14,8 +14,8 @@ var state = {
   emailjs.send("service_giq1obp","template_hmizxbu",state)
   .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
-      sleep(2);
-      <?php header("Location:contact.php?submit=1");?>
+      
+      <?php sleep(2); header("Location:contact.php?submit=1");?>
       
     }, function(error) {
        console.log('FAILED...', error);
