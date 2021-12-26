@@ -116,7 +116,7 @@ for($i=1;$i<=$filecount/2;$i++)
     $link=fread($myfile,filesize("certificates/{$i}.txt"));
     fclose($myfile);
     echo"
-    <div class=\"container-home\">
+    <div class=\"container-home\" data-aos=\"fade-up\">
     <img src=\"certificates/{$i}.jpg\" class=\"cert-img \" style=\"margin:1% 0 1% 0\"> <br>
     <a class=\"redirect\" href=\"{$link}\">Verify <i class=\"fas fa-external-link-square-alt\"></i></a>
     </div>
