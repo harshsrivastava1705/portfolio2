@@ -18,7 +18,8 @@ var state = {
       flag=1;
     }, function(error) {
        console.log('FAILED...', error);
-       flag=-1;
+      alert("Failed");
+       
        
     });
     while(flag==0){}
