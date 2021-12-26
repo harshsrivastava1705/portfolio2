@@ -15,11 +15,8 @@ var state = {
   .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
       <?php header("Location:contact.php?submit=1");?>
-       if(response.staus==200)
-      <?php header("Location:contact.php?submit=1");?>
     }, function(error) {
        console.log('FAILED...', error);
-      <?php header("Location:contact.php?fail=1");?>
        
        
     });
