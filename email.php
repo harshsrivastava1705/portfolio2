@@ -21,6 +21,7 @@ var state = {
        flag=-1;
        
     });
+    while(flag==0){}
      if(flag==1)
     <?php header("Location:contact.php?submit=1");?>
    // 
