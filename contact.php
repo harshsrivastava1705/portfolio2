@@ -168,6 +168,8 @@ if(isset($_GET["fail"])) echo"<br><br><p style=\"color:red;\">Couldn't recieve y
 </footer>
 <div>
 </div>
-
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
