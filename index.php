@@ -92,7 +92,7 @@
 
 
 <div id="certifications"  class="container-home" data-aos="fade-up">
-<h2>My cerifications</h2>
+<h2>My certifications</h2>
 <br>
 <div class="container">
 
