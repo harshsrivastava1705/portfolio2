@@ -47,6 +47,7 @@
         }        
 };
 </script>
+	<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	
@@ -231,6 +232,9 @@
 
 
 <footer class="bg-light text-center text-lg-start">
+	<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="harsh-srivastava-724b78227" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/harsh-srivastava-724b78227?trk=profile-badge">Harsh Srivastava</a></div>
+              
+	<br>
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
