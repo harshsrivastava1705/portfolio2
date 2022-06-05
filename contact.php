@@ -93,7 +93,7 @@
   <a id="top"></a>
   <div id="intro">
 
-    <img src="images/pfp2.jpg" alt="A picture of me" id="profile-img" />
+    <img src="images/photo-crop.png" alt="A picture of me" id="profile-img" />
     <h2 id="intro-name">Hey! Harsh Srivastava this side!</h2>
     <div id="wave-wrapper">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 330" class="wave">
